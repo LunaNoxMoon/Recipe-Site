@@ -1,0 +1,80 @@
+
+/*general*/
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+div{
+  display: block;
+}
+
+.content{
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2,
+h3,
+h4
+{
+  margin: 0px;
+  padding: 10px;
+}
+
+/*header*/
+header{
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  }
+
+header img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a{
+  color: SeaShell;
+}
+
+.recept{
+  border-bottom: white solid 1px;
+}
+
+.tags{
+  color: black;
+}
+
+/*footer*/
+.copy{
+  text-align: left;
+  padding-left: 20px;
+}
